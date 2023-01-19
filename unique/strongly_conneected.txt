@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+/*
+5 5
+Enter all edges
+1 0
+0 2
+2 1
+0 3
+3 4
+*/
 
 void dfs(int node, vector<int> &vis, stack<int> &st, vector<int> adj[])
 {
